@@ -26,7 +26,6 @@ const DynamicList: React.FC<DynamicListProps> = ({ items, onSelect }) => {
       <h2 style={{ marginBottom: 12, textAlign: "center" }}>Marvel Heroes</h2>
       <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
         {items.map((item) => {
-          // if you add item.image, prefer: const imgUrl = item.image!;
           const imgUrl = item.image;
 
           return (
